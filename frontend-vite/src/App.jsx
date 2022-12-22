@@ -1,13 +1,16 @@
-import Counter from './components/Counter'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Gallery from './components/Gallery'
-import Hero from './components/Hero'
+import Heros from './components/Heros'
+import Nav from './components/Nav'
 
 function App() {
     return (
         <>
-            <Hero />
+            <Nav />
+            <Heros />
             <Gallery />
+            <Contact />
             <Footer />
         </>
     )
