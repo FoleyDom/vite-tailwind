@@ -28,7 +28,7 @@ export default function Nav() {
 						About Us
 					</a>
 					<a class="mr-5 hover:text-white" href="#ContactUs">
-						Contact Us
+						Register
 					</a>
 				</nav>
 			</div>
