@@ -14,7 +14,10 @@ function Heros() {
 						With an emphasis on having fun and building lasting
 						friendships, 570 flag football is also highly
 						competitive. Bringing together some of the best local
-						athletes, our area has to offer.
+						athletes, our area has to offer. This league is built
+						different! If you think you could keep up, register
+						below. If you'd like to come watch, click on the
+						schedule button below.
 					</p>
 					<div class="flex justify-center">
 						<button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
