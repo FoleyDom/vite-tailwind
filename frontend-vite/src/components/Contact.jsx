@@ -27,6 +27,7 @@ export default function Contact() {
 									Name
 								</label>
 								<input
+									placeholder="Enter name"
 									type="text"
 									id="name"
 									name="name"
@@ -43,6 +44,7 @@ export default function Contact() {
 									Email
 								</label>
 								<input
+									placeholder="Enter email"
 									type="email"
 									id="email"
 									name="email"
@@ -59,6 +61,7 @@ export default function Contact() {
 									Message
 								</label>
 								<textarea
+									placeholder="Enter message"
 									id="message"
 									name="message"
 									class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
