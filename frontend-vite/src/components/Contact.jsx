@@ -1,3 +1,5 @@
+import Balancer from 'react-wrap-balancer'
+
 export default function Contact() {
     return (
         <section class="text-gray-400 bg-gray-900 body-font relative" id="ContactUs">
@@ -7,8 +9,10 @@ export default function Contact() {
                         Register for 2023 season
                     </h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Enter your name, email address, and a message with your prefered team.(If no
-                        prefered team leave blank)
+                        <Balancer>
+                            Enter your name, email address, and a message with your prefered
+                            team.(If no prefered team leave blank)
+                        </Balancer>
                     </p>
                 </div>
                 <div class="lg:w-1/2 md:w-2/3 mx-auto">
