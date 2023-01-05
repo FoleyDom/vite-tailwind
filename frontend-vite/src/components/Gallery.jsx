@@ -1,17 +1,21 @@
+import Balancer from 'react-wrap-balancer'
+
 function Gallery() {
     return (
         <section class="text-gray-400 bg-gray-900 body-font" id="AboutUs">
             <div class="container px-5 py-24 mx-auto">
                 <div class="text-center mb-20">
                     <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
-                        About us
+                        <Balancer>About us</Balancer>
                     </h1>
                     <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
-                        570 Flag Football is a premier league for players to experience the
-                        exhilarating competition of flag football. Founded by seasoned athletes and
-                        coaches, this league fosters camaraderie while offering an exciting and
-                        captivating experience to hone individual and team skills. 570 Flag Football
-                        provides an unparalleled, top-notch competitive experience.
+                        <Balancer>
+                            570 Flag Football is a premier league for players to experience the
+                            exhilarating competition of flag football. Founded by seasoned athletes
+                            and coaches, this league fosters camaraderie while offering an exciting
+                            and captivating experience to hone individual and team skills. 570 Flag
+                            Football provides an unparalleled, top-notch competitive experience.
+                        </Balancer>
                     </p>
                     <div class="flex mt-6 justify-center">
                         <div class="w-16 h-1 rounded-full bg-blue-500 inline-flex"></div>
@@ -72,6 +76,7 @@ function Gallery() {
                                 Competition
                             </h2>
                             <p class="leading-relaxed text-base">
+                                {' '}
                                 Competition in flag football leagues is heating up! With more and
                                 more teams signing up to compete, it's clear that this thrilling
                                 sport has never been more popular. Teams come prepared with their
