@@ -1,6 +1,6 @@
 import Schedule from './Schedule'
 import Balancer from 'react-wrap-balancer'
-import flagfootball from '../assets/flagfootball.png'
+import fbsmall from '../assets/fbsmall.webp'
 
 function Heros() {
 	return (
@@ -40,7 +40,7 @@ function Heros() {
 					<img
 						class='object-cover object-center rounded'
 						alt='hero'
-						src={flagfootball}
+						src={fbsmall}
 						loading='eager'
 						rel='modulepreload'
 					/>

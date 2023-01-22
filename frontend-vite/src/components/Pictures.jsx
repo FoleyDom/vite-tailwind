@@ -1,6 +1,6 @@
-import throwfootball from '../assets/throwfootball.png'
-import players from '../assets/players.png'
-import footballsign from '../assets/footballsign.png'
+import fbg from '../assets/fbg.webp'
+import fb2small from '../assets/fb2small.webp'
+import sign16x10 from '../assets/sign16x10.webp'
 
 export default function Pictures() {
 	return (
@@ -12,7 +12,7 @@ export default function Pictures() {
 							<img
 								alt='gallery'
 								class='w-full h-full object-cover object-center block'
-								src={footballsign}
+								src={sign16x10}
 								loading='eager'
 								rel='modulepreload'
 							/>
@@ -21,7 +21,7 @@ export default function Pictures() {
 							<img
 								alt='gallery'
 								class='w-full object-cover h-full object-center block'
-								src={throwfootball}
+								src={fb2small}
 								loading='eager'
 								rel='modulepreload'
 							/>
@@ -30,7 +30,7 @@ export default function Pictures() {
 							<img
 								alt='gallery'
 								class='w-full object-cover h-full object-center block'
-								src={players}
+								src={fbg}
 								loading='eager'
 								rel='modulepreload'
 							/>
