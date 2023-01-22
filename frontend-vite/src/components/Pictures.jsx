@@ -1,4 +1,3 @@
-import footballingrass from '../assets/footballingrass.png'
 import throwfootball from '../assets/throwfootball.png'
 import players from '../assets/players.png'
 import footballsign from '../assets/footballsign.png'
@@ -14,6 +13,8 @@ export default function Pictures() {
 								alt='gallery'
 								class='w-full h-full object-cover object-center block'
 								src={footballsign}
+								loading='eager'
+								rel='modulepreload'
 							/>
 						</div>
 						<div class='md:p-2 p-1 w-1/2'>
@@ -21,6 +22,8 @@ export default function Pictures() {
 								alt='gallery'
 								class='w-full object-cover h-full object-center block'
 								src={throwfootball}
+								loading='eager'
+								rel='modulepreload'
 							/>
 						</div>
 						<div class='md:p-2 p-1 w-1/2'>
@@ -28,6 +31,8 @@ export default function Pictures() {
 								alt='gallery'
 								class='w-full object-cover h-full object-center block'
 								src={players}
+								loading='eager'
+								rel='modulepreload'
 							/>
 						</div>
 					</div>

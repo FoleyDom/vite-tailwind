@@ -41,6 +41,8 @@ function Heros() {
 						class='object-cover object-center rounded'
 						alt='hero'
 						src={flagfootball}
+						loading='eager'
+						rel='modulepreload'
 					/>
 				</div>
 			</div>
